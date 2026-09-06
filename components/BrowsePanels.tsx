@@ -313,8 +313,8 @@ function SettingsPanel() {
           <p className="text-label mb-2">Missing a song?</p>
           <SuggestSong query="" hymnalId={suggestTo.id} label="Suggest a song" compact />
           <p className="mt-2 font-sans text-[0.7rem] leading-relaxed text-paper-faint">
-            Suggestions go to the app maintainer. New songs may be added to Other Songs; the
-            hymnbook stays as published.
+            Suggestions go to the app maintainer. New songs may be added to {suggestTo.shortName}.
+            The hymnbook is displayed as published.
           </p>
         </section>
       )}
